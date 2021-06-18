@@ -40,7 +40,7 @@ struct EmijiArtDocumentView: View {
                     }
                 }
             }
-            .clipped()
+            .clipped()// keep background in doc body.
             .onDrop( of: [.plainText, .url, .image], isTargeted: nil) { provider, location in
                 return drop(providers: provider, at: location, in: geometry)
             }
