@@ -20,6 +20,8 @@
 		BD2902C9267DB46E0053746A /* PaletteChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2902C8267DB46E0053746A /* PaletteChooser.swift */; };
 		BD2902CB267DDCF40053746A /* PaletteEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2902CA267DDCF40053746A /* PaletteEditor.swift */; };
 		BD2902CD267E1EE50053746A /* PaletteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2902CC267E1EE50053746A /* PaletteManager.swift */; };
+		BD3199C82686CF650071B27D /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3199C72686CF650071B27D /* Camera.swift */; };
+		BD3199CA2686DC850071B27D /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3199C92686DC850071B27D /* PhotoLibrary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		BD2902C8267DB46E0053746A /* PaletteChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteChooser.swift; sourceTree = "<group>"; };
 		BD2902CA267DDCF40053746A /* PaletteEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteEditor.swift; sourceTree = "<group>"; };
 		BD2902CC267E1EE50053746A /* PaletteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteManager.swift; sourceTree = "<group>"; };
+		BD3199C72686CF650071B27D /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		BD3199C92686DC850071B27D /* PhotoLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLibrary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				BD2902CC267E1EE50053746A /* PaletteManager.swift */,
 				BD2902C2267642FE0053746A /* UtilityExtensions.swift */,
 				BD2902C3267642FE0053746A /* UtilityViews.swift */,
+				BD3199C72686CF650071B27D /* Camera.swift */,
+				BD3199C92686DC850071B27D /* PhotoLibrary.swift */,
 				BD2902AF2675DA980053746A /* Assets.xcassets */,
 				BD2902B42675DA980053746A /* Info.plist */,
 				BD2902B12675DA980053746A /* Preview Content */,
@@ -166,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD2902C5267642FE0053746A /* UtilityViews.swift in Sources */,
+				BD3199CA2686DC850071B27D /* PhotoLibrary.swift in Sources */,
 				BD2902CD267E1EE50053746A /* PaletteManager.swift in Sources */,
 				BD2902C7267CC7090053746A /* PaletteStore.swift in Sources */,
 				BD2902CB267DDCF40053746A /* PaletteEditor.swift in Sources */,
@@ -173,6 +180,7 @@
 				BD2902AC2675DA950053746A /* EmojiArt_2021App.swift in Sources */,
 				BD2902C4267642FE0053746A /* UtilityExtensions.swift in Sources */,
 				BD2902BF26762E730053746A /* EmojiArtDocument.swift in Sources */,
+				BD3199C82686CF650071B27D /* Camera.swift in Sources */,
 				BD2902BB2675F3AF0053746A /* EmojiArtModel.swift in Sources */,
 				BD2902BD267606F10053746A /* EmojiArtModel.Background.swift in Sources */,
 				BD2902C9267DB46E0053746A /* PaletteChooser.swift in Sources */,
